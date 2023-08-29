@@ -1,0 +1,75 @@
+*
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html
+{
+    font-size: 20px;
+}
+
+.container
+{
+    width: 50%;
+    height : 200px;
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.insideContainer
+{
+    width: 75%;
+    border: 2px solid red;
+    padding : 10px;
+    margin : 10px 20px;
+}
+
+.firstPara
+{
+border: 2px solid blue;
+margin : 30px;
+padding: 30px 50px;
+font-size: 2rem;
+}
+
+.thirdPara
+{
+    border: 2px solid cyan;
+    margin : 50px;
+    padding: 20px 40px;
+}
+
+.secondPara
+{
+    border: 2px solid green;
+    margin : 50px;
+    padding: 20px 40px;
+    font-size: 5em;
+}
+
+a
+{
+    text-decoration: none;
+    color: #007bff;
+}
+
+a:hover
+{
+    text-decoration: underline;
+}
+
+.image-container
+{
+    overflow: hidden;
+    position: relative;
+}
+
+.image-container img
+{
+transition: transform 0.3s;
+}
+
+.image-container:hover img
+{
+    transform : scale(1.1);
+} 
